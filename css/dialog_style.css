@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*.bg-area {
+	border-radius: 60%;
+	
+}*/
+.dialoglink {
+	font-family: 'Poppins';
+	text-align: center;
+	padding-top: 50px;
+	margin-bottom: 9%;
+	
+}
+.dialoglink>a {
+	font-family: 'Poppins';
+
+	border: none;
+	border-radius: 0.25rem;
+	height: 36px;
+	padding: 15px 15px;
+	font-weight: 500;
+
+	text-align: center;
+	line-height: 36px;
+	vertical-align: middle;
+	color: Black;
+	font-size: 16px;
+	text-decoration: none; 
+	background-color: #f47f39;
+   
+   transition: .2s ease-in-out 0s;
+}
+.dialoglink a:hover{
+	cursor: pointer;
+	transform: scale(1.25);
+	background: #7f8c7c;
+	color: #000;
+}
+.dialog {
+	display: none;
+}
+body.has-dialog {
+	overflow: hidden;
+}
+.dialog.opened {
+	display: block;
+}
+.dialog {
+	bottom: 0;
+	box-sizing: border-box;
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	padding: 15px;
+	z-index: 1000;
+}
+.dialog__window {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	margin: 0 auto;
+	max-width: 980px;
+	position: fixed;
+	overflow: auto;
+	overflow-x: hidden;
+	position: relative;
+	-webkit-overflow-scrolling: touch;
+	z-index: 99999;
+	margin-top: 2%;
+}
+.dialog__mask {
+	background-color: #000000;
+	height: 100%;
+	left: 0;
+	opacity: 0.6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}
+.dialog__header {
+	font-family: 'Poppins';
+	background-color: white;
+	border-bottom: 1px solid #ccc;
+	box-sizing: border-box;
+	display: flex;
+	flex-shrink: 0;
+	font-size: 16px;
+	padding: 8px;
+	
+}
+.dialog__title {
+	font-family: 'Poppins';
+	font-size: 24px;
+	align-self: center;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 100%;
+	color: black;
+	padding-left: 2%;
+	font-weight: 300;
+}
+.dialog__close {
+	font-family: 'Poppins';
+	background: transparent;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: none;
+	
+}
+.dialog__close:hover {
+	font-family: 'Poppins';
+	background-color: #e5e5e5;
+  outline: 1px dotted #767676;
+  outline-offset:1px;
+}
+.dialog__close::after {
+	font-family: 'Poppins';
+	content: 'X';
+	font-size: 12px;
+	color: lightslategrey;
+}
+.dialog__body {
+	font-family: 'Poppins';
+	background-color: #fafafa;
+	box-sizing: border-box;
+	padding: 0px 16px 16px 16px;
+	
+	overflow-y: auto;
+	
+	font-size: 16px;
+	font-weight: 300;
+}
+
+
+.file_upload{
+	font-family: 'Poppins';
+	display: inline-block;
+	background-color: #f47f39;
+	color: white;
+	padding: 0.5rem;	
+	border-radius: 0.3rem;
+	cursor: pointer;
+	
+  }
+
+  input[type='radio']:after {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	top: -2px;
+	left: -1px;
+	position: relative;
+	background-color: white;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid #f47f39;
+}
+
+input[type='radio']:checked:after {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	top: -2px;
+	left: -1px;
+	position: relative;
+	background-color: #ffa500;
+	content: '';
+	display: inline-block;
+	visibility: visible;
+	border: 2px solid white;
+}
+.close:hover{
+	background-color: #f47f39;
+	border: none;
+}
+.submit_button:hover{
+	background-color: #f47f39;
+	border: none;
+}
+
+
+
+/* Hide the images by default */
+.mySlides {
+	font-family: 'Poppins';
+	display: none;
+	text-align: center;
+	height: 80%;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 40%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Container for image text */
+  
+  
+  .row:after {
+	font-family: 'Poppins';
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+	float: left;
+	width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+
+  .close_button{
+	padding-top: 3%;
+	text-align: right;
+	font-size: 19px;
+  }
+		 
+  @media only screen and (max-width: 912px) {
+	.close_button{
+	 
+	  font-size: 10px;
+	  
+	}
+	.slide_images{
+
+		flex-direction:column;
+		text-align: center;
+	}
+	.slide_images img{
+		width: 50% !important;
+		padding-bottom: 5%;
+	}
+	.mySlides img{
+		width:100%;
+	}
+}
+.slide_images img{
+	width: 100%;
+	height: 60%;
+
+}
+.mySlides img{
+	width:60%;
+	
+	
+}
+.roshi{
+	width: 100%;
+	height: 100%;
+}
