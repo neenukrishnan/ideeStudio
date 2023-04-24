@@ -2783,7 +2783,7 @@ background:#f58220 !important;
  .fa-envelope{
   display: flex !important;
   flex-direction: column !important;
-  padding-left: 18%;
+  
   padding-bottom: 3%;
  }
  .fa-envelope a{
@@ -2793,7 +2793,7 @@ background:#f58220 !important;
  .fa-phone{
   display: flex !important;
   flex-direction: column !important;
-  padding-left: 11%;
+ 
   padding-bottom: 3%;
  }
  .fa-phone a{
@@ -2806,7 +2806,7 @@ background:#f58220 !important;
  .fa-home{
   display: flex !important;
   flex-direction: column !important;
-  padding-left: 11%;
+ 
   padding-bottom: 3%;
  }
 }
