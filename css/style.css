@@ -589,8 +589,10 @@ a{
   .booknow{
     padding-top: 1% !important;
     padding-bottom: 1% !important;
-    width: 14%;
+    width: 16%;
     padding-left:1% !important;
+    padding-right:1% !important;
+    margin-left: 43%;
   }
   .indexbanner p{
     left: 40%;
@@ -603,7 +605,9 @@ a{
 
 @media screen and (max-width: 767px) {
   .booknow{
-    width: 19%;
+    text-align: center;
+       width: 23%;
+       margin-left: 39%;
   }
   .image{
     width: 153px;
@@ -667,10 +671,9 @@ a{
   }
 
 }
+/*
 @media screen and (max-width: 490px){
-.booknow {
-    width: 20%;
-}
+
 }
 @media screen and (max-width: 476px){
   .booknow {
@@ -681,37 +684,38 @@ a{
     .booknow {
         width: 22%;
     }
-    }
+    }*/
     @media screen and (max-width: 456px){
       .booknow {
-          width: 23%;
+          width: 25%;
       }
       }
       @media screen and (max-width: 412px){
         .booknow {
-            width: 24%;
+            width: 27%;
         }
         }
  @media screen and (max-width: 392px){
           .booknow {
-              width: 25%;
+              width: 28%;
           }
     }
     @media screen and (max-width: 377px){
       .booknow {
-          width: 26%;
+          width: 29%;
       }
 }
 @media screen and (max-width: 367px){
   .booknow {
-      width: 28%;
+      width: 30%;
   }
 }
 @media screen and (max-width: 321px){
   .booknow {
-      width: 31%;
+      width: 34%;
   }
 }
+
 @media screen and (max-width: 992px) {
     .blog-slider {
       max-width: 680px;
@@ -1367,7 +1371,7 @@ a{
 }
 .aboutheader p{
   font-size: 130px;
-  margin-top: 10%;
+  margin-top: 14%;
   color: #f58220;
   line-height: 70%;
 }
@@ -1648,7 +1652,7 @@ a{
 
 @media screen and (max-width: 736px){
   .aboutheader p{
-    margin-top: 15%;
+    margin-top: 21%;
     font-size:80px;
   }
   .aboutheader p span{
@@ -1658,11 +1662,14 @@ a{
 
 @media screen and (max-width:440px){
   .aboutheader p{
-    margin-top: 22%;
-    font-size:60px;
+    margin-top: 29%;
+    font-size:53px;
   }
   .aboutheader p span{
     font-size:30px;
+  }
+  .aboutparagrph{
+    padding-top: 14px;
   }
 }
 @media only screen and (min-width: 280px) and (max-width:294px) {
@@ -2921,5 +2928,8 @@ id :  https://neenukrishnan.github.io/ideeStudio/
 .indexbanner p span{
   left: 33%;
   font-size: 20px;
+}
+.padding-top-mobile{
+  margin-top: 12% !important;
 }
 }
