@@ -2,12 +2,13 @@
  $name=$_POST["name"];
  $mail=$_POST["email"];
  $message=$_POST["message"];
+ $phone=$_POST["phone"];
 
- $to = "mail@ideestudio.in";
-
+ $to = "neenukrishnan90@gmail.com";
+ //$to = "mail@ideestudio.in";
  $subject = "Mail From" . $mail ;
 
- $txt ="Name : " . $name . "\r\n  Message : " . $message;
+ $txt ="Name : " . $name . "\r\n Phone: " . $phone . "\r\n Message : " . $message;
  $headers = "From:" . $mail . "\r\n";
 
  if($mail!=NULL && $name!=NULL && $message!=NULL)
