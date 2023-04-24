@@ -301,7 +301,19 @@ a{
   .slick-arrow.slick-hidden {
     display: none;
   }
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: 135%;
+    font-size: 1.8rem;
+  }
   
+  .slick-prev {
+    left: 0;
+  }
+  
+  .slick-next {
+    right: 0;
+  }
 .why{
     
     margin-bottom: 3% !important;
