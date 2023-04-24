@@ -2854,6 +2854,9 @@ id :  https://neenukrishnan.github.io/ideeStudio/
     top : 86%;
     left : 22%;
   }
+  .nav-link {
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 915x){
   .get-quote{
