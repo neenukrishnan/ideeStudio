@@ -5,7 +5,7 @@ body{
     padding: 0%;
     overflow-x: hidden;
     width: 100%;
-    font-family: 'Poppins';
+    font-family: 'Poppins' !important;
 }
 /*logo image */
 img {
@@ -340,7 +340,10 @@ a{
 }
 @media screen and (max-width:578px){
   .whydee{
-    height: 400px;
+    height: 165px;
+  }
+  .whydee p{
+    padding-top: 4%;
   }
 }
 /*
@@ -363,6 +366,7 @@ a{
   padding-top: 7%;
   padding-bottom: 3%;
     font-size: 21px;
+    text-align: justify;
 }
 .dee img{
     width: 457px;
@@ -606,7 +610,7 @@ a{
     font-size: 21px;
   }
   .box p {
-    font-size: 23px;
+    font-size: 20px;
     padding-right: 0%;
 }
 .why_Idee{
@@ -2180,7 +2184,7 @@ width: auto;
  
 }
 .btn-outline-secondary{
-  font-family: 'Poppins';
+  font-family: 'Poppins' !important;
   background-color: #f58220 !important; 
   padding-top: 2%;
   font-weight: bold;
@@ -2578,7 +2582,7 @@ width: auto;
       margin-top: 52px;
     }
     .logoslider h2{
-      font-size: 47px;
+      font-size: 37px;
     }
   }
 
@@ -2836,6 +2840,9 @@ background:#f58220 !important;
 /* new codes starts here 
 id :  https://neenukrishnan.github.io/ideeStudio/
 */
+.text_align{
+  text-align: justify;
+}
 @media only screen and (max-width: 992px){
   .logo {
     max-width: 32%;
@@ -2869,4 +2876,22 @@ id :  https://neenukrishnan.github.io/ideeStudio/
     top : 82%;
     left : 30%;
   }
+  .blogbanner{
+    height: 352px;
+  }
+.col-rev{
+    flex-direction: column-reverse !important;
+  }
+
+  .col-rev .col-md-8{
+  padding-top: 6% !important;
+}
+.text_align{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.text_align_padding{
+  padding-left: 4%;
+  padding-right: 4%;
+}
 }
