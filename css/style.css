@@ -2867,7 +2867,7 @@ id :  https://neenukrishnan.github.io/ideeStudio/
     padding-bottom: 1% !important; 
   }
   .indexbanner{
-    height: 45vh;
+    height: 55vh;
   }
   .get-quote{
     top : 86%;
@@ -2889,7 +2889,7 @@ id :  https://neenukrishnan.github.io/ideeStudio/
     left : 30%;
   }
   .blogbanner{
-    height: 352px;
+    height: 237px;
   }
 .col-rev{
     flex-direction: column-reverse !important;
@@ -2905,5 +2905,13 @@ id :  https://neenukrishnan.github.io/ideeStudio/
 .text_align_padding{
   padding-left: 4%;
   padding-right: 4%;
+}
+.articlePage h4{
+  font-size: 22px;
+}
+.blogbanner h2 {
+  font-size: 60px;
+  padding-top: 29%;
+
 }
 }
