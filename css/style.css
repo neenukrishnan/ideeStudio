@@ -2932,4 +2932,10 @@ id :  https://neenukrishnan.github.io/ideeStudio/
 .padding-top-mobile{
   margin-top: 12% !important;
 }
+.submit_button{
+  width: 25%;
+}
+.dialog{
+  margin-top: 10% !important;
+}
 }
