@@ -2885,7 +2885,7 @@ id :  https://neenukrishnan.github.io/ideeStudio/
 }
 @media only screen and (max-width: 767px ){
   .get-quote{
-    top : 82%;
+    top : 70%;
     left : 30%;
   }
   .blogbanner{
@@ -2913,5 +2913,13 @@ id :  https://neenukrishnan.github.io/ideeStudio/
   font-size: 60px;
   padding-top: 29%;
 
+}
+.indexbanner p{
+  left: 40%;
+  font-size: 60px;
+}
+.indexbanner p span{
+  left: 33%;
+  font-size: 20px;
 }
 }
