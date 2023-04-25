@@ -19,5 +19,6 @@
     }
     else{
         echo "<script>alert('Mail was not sent. Please try again later');</script>";
+        echo "<script>document.location.href='contact.php'</script>";
     }
 ?>

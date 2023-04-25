@@ -25,6 +25,28 @@ crossorigin="anonymous"></script>
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/footer.css">
+    <script language="Javascript" type="text/javascript">
+
+function onlyAlphabets(e, t) {
+    try {
+        if (window.event) {
+            var charCode = window.event.keyCode;
+        }
+        else if (e) {
+            var charCode = e.which;
+        }
+        else { return true; }
+        if ((charCode > 64 && charCode < 91) || (charCode > 96 && charCode < 123))
+            return true;
+        else
+            return false;
+    }
+    catch (err) {
+        alert(err.Description);
+    }
+}
+
+</script>
 </head>
 <body>
 <!-- Navigation -->
@@ -115,12 +137,11 @@ crossorigin="anonymous"></script>
                         <form name="form1"  method="post" action="contact_action.php">
                     <!-- Name input -->
                     <div class="form-outline mb-4">
-                      <input type="text" id="contact_name" class="form-control" name="name" placeholder=" Name" data-constraints="@required" onkeyup="letters();">
-                      <label class="form-label" for="form4Example1"></label>
-                    </div>
+                      <input type="text" id="contact_name" class="form-control" name="name" placeholder=" Name" data-constraints="@required" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || event.charCode == 32">
+                      <label class="form-label" for="form4Example1"></label>                                                                    
                     <!-- phone input -->
                     <div class="form-outline mb-4">
-                      <input type="number" id="contact_number"  class="form-control" name="phone" placeholder="Phone number" data-constraints=""/>
+                      <input type="text" id="contact_number"  class="form-control" name="phone" placeholder="Phone number" data-constraints="" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" />
                       <label class="form-label" for="form4Example2"></label>
                     </div>
                     <!-- Email input -->

@@ -176,9 +176,9 @@ crossorigin="anonymous"></script>
                     <div class="row">
                      
                         <div class="col-lg-6">
-                            <br> <input type="text"  name="name" id="contact_name" placeholder="Name" required onkeyup="letters();"><br><br>
+                            <br> <input type="text"  name="name" id="contact_name" placeholder="Name" required onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || event.charCode == 32"><br><br>
                             <input type="email" name="email" id="contact_email" placeholder="Email" required><br><br>
-                            <input type="text" name="phone" id="contact_phone" placeholder="Phone Number" required onkeyup="numbers_phone();"><br><br>
+                            <input type="text" name="phone" id="contact_phone" placeholder="Phone Number" required onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"><br><br>
                           </div>
                         <div class="col-lg-6">
                             <br><textarea rows="6" placeholder="Address" name="address" id="contct_address"></textarea><br>
@@ -188,7 +188,7 @@ crossorigin="anonymous"></script>
                 
                   <div class="row">
                     <div class="col-lg-6">
-                      <input type="text" name="sqfeet" id="sqfeet"  placeholder="Square Feet" required onkeyup="numbers_sqtfeet();"><br><br>
+                      <input type="text" name="sqfeet" id="sqfeet"  placeholder="Square Feet" required onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))"><br><br>
                     </div>
                     <div class="col-lg-6">
                           <input type="file" id="upload" name="attachment" hidden/>
