@@ -66,7 +66,7 @@ function onlyAlphabets(e, t) {
           <a class="nav-link" aria-current="page" href="index.html">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">ABOUT US</a>
+          <a class="nav-link" href="about.php">ABOUT US</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="project.html">PROJECT</a>
@@ -78,7 +78,7 @@ function onlyAlphabets(e, t) {
           <a class="nav-link" href="blog.html">BLOG</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">CONTACT</a>
+          <a class="nav-link" href="contact.php">CONTACT</a>
         </li>&nbsp;&nbsp;
         <li id="book_id"><a class="nav-link booknow"  href="tel:+91 7902223767">
             CONTACT NOW</a></li>
@@ -219,7 +219,7 @@ function onlyAlphabets(e, t) {
   <a href="index.html" class="text-reset">Home</a>
 </p>
 <p class="useful">
-  <a href="about.html" class="text-reset">About us</a>
+  <a href="about.php" class="text-reset">About us</a>
 </p>
 <p class="useful">
   <a href="project.html" class="text-reset">Projects</a>
@@ -231,7 +231,7 @@ function onlyAlphabets(e, t) {
   <a href="blog.html" class="text-reset">Blog</a>
 </p>
 <p class="useful">
-  <a href="contact.html" class="text-reset">Contact</a>
+  <a href="contact.php" class="text-reset">Contact</a>
 </p>
 </div>
 <!-- Grid column -->
