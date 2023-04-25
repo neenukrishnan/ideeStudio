@@ -112,7 +112,7 @@ crossorigin="anonymous"></script>
                     <div class="col-sm-6">
                         
                       <div class="contactform">
-                        <form name="form1" data-form-output="form-output-global" data-form-type="contact" method="post" action="contact_action.php">
+                        <form name="form1"  method="post" action="contact_action.php">
                     <!-- Name input -->
                     <div class="form-outline mb-4">
                       <input type="text" id="contact_name" class="form-control" name="name" placeholder=" Name" data-constraints="@required" onkeyup="letters();">
