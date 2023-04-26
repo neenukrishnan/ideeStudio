@@ -1977,7 +1977,7 @@ width: auto;
 }
 .tabProject{
   text-align: center;
-  
+  font-family: 'Poppins' !important;
 }
 
 
@@ -1985,6 +1985,7 @@ width: auto;
   font-size: 26px;
   color: white;
   background-color: black !important;
+  font-family: 'Poppins' !important;
   
 }
 
@@ -1995,9 +1996,11 @@ width: auto;
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
   color: #fff;
   background-color: black !important;
+  font-family: 'Poppins' !important;
 }
 
 .nav > li > a {
+  font-family: 'Poppins' !important;
   background-color: gray !important;
   color: white !important;
 }
