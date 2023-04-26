@@ -2940,3 +2940,89 @@ id :  https://neenukrishnan.github.io/ideeStudio/
 }
 }
 
+.servive-commercial{
+  font-size: 25px;
+  color: #f08220;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+.service-commercial-head{
+  font-size: 20px;
+  color: #2F6168 !important;
+  font-weight: bold;
+}
+.service-commercial-content{
+font-size: 18px;
+text-align: justify;
+padding-left: 2%;
+padding-right: 2%;
+}
+.service-idee{
+  margin-top: 5%;
+}
+.row-margin{
+  margin-top: 4% !important;
+}
+.back-color{
+  background-color: #e5e5e5;
+  padding-top: 2%;
+  border-radius: 9px;
+  margin: 1%;
+  }
+  .marigin-left{
+    margin-left: 14% !important;
+  }
+
+.design-container{
+  margin-top: 3%;
+}
+.inspire{
+  font-size: 27px;
+  color:#f58220 ;
+  font-weight: bold;
+}
+.spaces{
+  text-align: justify;
+  font-size: 18px;
+}
+.office_space img{
+  height: 80%;
+  padding-left: 7%;
+}
+.redefined p{
+  font-size: 18px;
+}
+.consulation{
+  font-size: 30px !important;
+  color:#f58220 ;
+  padding-top: 5%;
+  text-align: center;
+  font-weight: bold;
+}
+.meeting{
+  font-weight: bold;
+  color: #2f6168;
+  font-size: 18px;
+}
+@media only screen and (max-width: 992px ){
+  .service-idee .row .col-sm-3{
+    width: -webkit-fill-available !important;
+  }
+  .redefined p{
+    text-align: justify;
+    }
+}
+@media only screen and (max-width: 767px ){
+  .office_space img{
+    padding-left: 0%;
+  }
+  .servive-commercial{
+    padding-top: 7%;
+  }
+  .marigin-left {
+  margin-left: 0% !important; 
+  margin-top: 9% !important;
+}
+
+
+}
