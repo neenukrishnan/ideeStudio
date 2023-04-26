@@ -3014,6 +3014,13 @@ padding-right: 2%;
   font-size: 18px;
   padding: 1% 1%;
 }
+.commercial-service{
+  padding-top: 3% !important;
+  text-align: center;
+}
+.commercial-service-image{
+
+}
 @media only screen and (max-width: 992px ){
   .service-idee .row .col-sm-3{
     width: -webkit-fill-available !important;
