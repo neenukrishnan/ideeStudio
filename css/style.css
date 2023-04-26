@@ -3004,12 +3004,31 @@ padding-right: 2%;
   color: #2f6168;
   font-size: 18px;
 }
+.service-more{
+  border: none;
+  background-color: #f08220;
+  border-radius: 0.25rem;
+  margin-bottom: 3%;
+  color: #2F6168;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 1% 1%;
+}
 @media only screen and (max-width: 992px ){
   .service-idee .row .col-sm-3{
     width: -webkit-fill-available !important;
   }
+  .back-color{
+    margin-top: 2% !important;
+  }
   .redefined p{
     text-align: justify;
+    }
+    .consulation{
+      text-align: center;
+    }
+    .row-margin{
+      margin-top: 0% !important;
     }
 }
 @media only screen and (max-width: 767px ){
