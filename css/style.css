@@ -2989,8 +2989,13 @@ padding-right: 2%;
   font-size: 18px;
 }
 .office_space img{
-  height: 80%;
-  padding-left: 7%;
+  width: 80% !important;
+  margin-left: 4%;
+ 
+ 
+}
+.servive-commercial {
+  margin-top: 4%;
 }
 .redefined p{
   font-size: 18px;
