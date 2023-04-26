@@ -69,6 +69,9 @@ function onlyAlphabets(e, t) {
           <a class="nav-link" href="about.php">ABOUT US</a>
         </li>
         <li class="nav-item">
+                <a class="nav-link" href="service.html">SERVICE</a>
+              </li>
+        <li class="nav-item">
           <a class="nav-link" href="project.html">PROJECT</a>
         </li>
         <li class="nav-item">
@@ -220,6 +223,9 @@ function onlyAlphabets(e, t) {
 </p>
 <p class="useful">
   <a href="about.php" class="text-reset">About us</a>
+</p>
+<p class="useful">
+  <a href="servive.html" class="text-reset">Service</a>
 </p>
 <p class="useful">
   <a href="project.html" class="text-reset">Projects</a>
