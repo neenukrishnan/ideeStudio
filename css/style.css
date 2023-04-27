@@ -34,8 +34,8 @@ a{
   background-color: #f58220;
   /*border-radius: 8px; */
   border-radius: 0.25rem;
-  padding-top: 6% !important;
-  padding-bottom: 6% !important;
+  padding-top: 1% !important;
+  padding-bottom: 1% !important;
   color: white !important;
   font-size: 12px;
 }
@@ -305,10 +305,12 @@ a{
     position: absolute;
     top: 135%;
     font-size: 1.8rem;
+    
   }
   
   .slick-prev {
     left: 0;
+  
   }
   
   .slick-next {
@@ -3036,7 +3038,17 @@ padding-right: 2%;
 .commercial-service-image{
 
 }
+.other-row-one{
+  margin-left: 8% !important;
+  margin-bottom: 3% !important;
+}
+.other-employees{
+  margin-bottom: 3%;
+}
 @media only screen and (max-width: 992px ){
+  .other-row-one{
+    margin-left: 0% !important;
+  }
   .service-idee .row .col-sm-3{
     width: -webkit-fill-available !important;
   }
