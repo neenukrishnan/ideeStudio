@@ -141,7 +141,7 @@ a{
     width: 43%;
 }
 .roundService p{
-    color: #2f6168;
+    color: #7f8c7c;
     font-weight: bold;
     text-align: center;
 }
@@ -167,16 +167,16 @@ a{
     text-align: center;
     margin-bottom: 10px;
     border: 3px solid #fff;
-    -webkit-box-shadow: 0px 1px 2px #2f6168,
-    inset 0px 3px 8px #2f6168;
-    -moz-box-shadow: 0px 1px 2px #2f6168,
-    inset 0px 3px 8px #2f6168;
-    box-shadow: 0px 1px 2px #2f6168,
-    inset 0px 3px 8px #2f6168;
+    -webkit-box-shadow: 0px 1px 2px #7f8c7c,
+    inset 0px 3px 8px #7f8c7c;
+    -moz-box-shadow: 0px 1px 2px #7f8c7c,
+    inset 0px 3px 8px #7f8c7c;
+    box-shadow: 0px 1px 2px #7f8c7c,
+    inset 0px 3px 8px #7f8c7c;
     margin-top: 50px;
 }
 .image img{
-  background-color: #2f6168;
+  background-color: #7f8c7c;
   width: 180px;
   
 }
@@ -330,7 +330,7 @@ a{
   background-color: #dde8e7;
 }
 .why_Idee{
-  background-color: #2f6168;
+  background-color: #7f8c7c;
 }
 .whydee{
     position: relative;
@@ -2983,7 +2983,7 @@ id :  https://neenukrishnan.github.io/ideeStudio/
 }
 .service-commercial-head{
   font-size: 20px;
-  color: #2F6168 !important;
+  color: #7f8c7c !important;
   font-weight: bold;
 }
 .service-commercial-content{
@@ -3041,7 +3041,7 @@ padding-right: 2%;
 }
 .meeting{
   font-weight: bold;
-  color: #2f6168;
+  color: #7f8c7c;
   font-size: 18px;
 }
 .service-more{
@@ -3049,7 +3049,7 @@ padding-right: 2%;
   background-color: #f08220;
   border-radius: 0.25rem;
   margin-bottom: 3%;
-  color: #2F6168;
+  color: #7f8c7c;
   font-weight: bold;
   font-size: 18px;
   padding: 1% 1%;
