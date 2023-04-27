@@ -732,7 +732,7 @@ a{
 }
 @media screen and (max-width: 367px){
   .booknow {
-      width: 30%;
+      width: 40%;
   }
 }
 @media screen and (max-width: 321px){
@@ -3069,6 +3069,9 @@ padding-right: 2%;
   margin-bottom: 3%;
 }
 @media only screen and (max-width: 992px ){
+  .commercialservicebanner{
+    margin-top: 15%;
+  }
   .other-row-one{
     margin-left: 0% !important;
   }
@@ -3099,6 +3102,8 @@ padding-right: 2%;
   margin-left: 0% !important; 
   margin-top: 9% !important;
 }
-
+.commercialservicebanner{
+  margin-top: 19%;
+}
 
 }
