@@ -27,6 +27,9 @@ a{
 .hamber{
   font-size: 9px !important;
 }
+.nav-link{
+  color: white !important;
+}
 #logo_id{
   padding-top: 7%;
 }
@@ -57,10 +60,12 @@ a{
 }
 #nav_container li{
   font-size: 14px;
+  color: white !important;
 }
 #navBar{
-  background-color: #7f8c7c !important;
+  background-color:#7f8c7c !important;
 }
+
 /* index */
 .indexbanner{
     background-image: url(../images/indexpagebanner1_11zon.webp);
@@ -591,7 +596,7 @@ a{
   .booknow{
     padding-top: 1% !important;
     padding-bottom: 1% !important;
-    width: 16%;
+    width: 20%;
     padding-left:1% !important;
     padding-right:1% !important;
     margin-left: 43%;
@@ -608,7 +613,7 @@ a{
 @media screen and (max-width: 767px) {
   .booknow{
     text-align: center;
-       width: 23%;
+       width: 30%;
        margin-left: 39%;
   }
   .image{
@@ -689,17 +694,17 @@ a{
     }*/
     @media screen and (max-width: 456px){
       .booknow {
-          width: 25%;
+          width: 30%;
       }
       }
       @media screen and (max-width: 412px){
         .booknow {
-            width: 27%;
+            width: 30%;
         }
         }
  @media screen and (max-width: 392px){
           .booknow {
-              width: 28%;
+              width: 37%;
           }
     }
     @media screen and (max-width: 377px){
