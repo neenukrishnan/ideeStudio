@@ -71,7 +71,7 @@ body.has-dialog {
 	position: relative;
 	-webkit-overflow-scrolling: touch;
 	z-index: 99999;
-	margin-top: 2%;
+	margin-top: 4%;
 }
 .dialog__mask {
 	background-color: #000000;
