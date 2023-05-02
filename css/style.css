@@ -174,12 +174,17 @@ a{
     box-shadow: 0px 1px 2px #7f8c7c,
     inset 0px 3px 8px #7f8c7c;
     margin-top: 50px;
+    cursor: auto;
+    
+   
+   
 }
 .image img{
   background-color: #7f8c7c;
   width: 180px;
   
 }
+
 .image span {
     display: none;
     position: absolute;
@@ -193,9 +198,13 @@ a{
     padding: 3em 1em 0;
     background-color: #f58220; 
     opacity: 0.7;
+    cursor: auto;
+   
 }
-.image:hover span {
+
+.image:hover span { 
     display: block;
+    pointer-events: none;
 }
 .logoslider{
     margin-top: 0%;
@@ -3042,7 +3051,7 @@ padding-right: 2%;
 .meeting{
   font-weight: bold;
   color: #7f8c7c;
-  font-size: 18px;
+  font-size:18px;
 }
 .service-more{
   border: none;
